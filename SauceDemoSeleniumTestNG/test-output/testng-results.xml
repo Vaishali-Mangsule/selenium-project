@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-13T13:36:43 IST" name="crossSuite" finished-at="2026-03-13T13:37:44 IST" duration-ms="61308">
+    <groups>
+    </groups>
+    <test started-at="2026-03-13T13:36:43 IST" name="Test1" finished-at="2026-03-13T13:37:15 IST" duration-ms="31715">
+      <class name="tests.LoginToApplication">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginToApplication@5bf0d49]" started-at="2026-03-13T13:36:43 IST" name="setUp" finished-at="2026-03-13T13:36:54 IST" duration-ms="10528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:tests.LoginToApplication@5bf0d49]" started-at="2026-03-13T13:36:54 IST" name="login" finished-at="2026-03-13T13:37:09 IST" duration-ms="15494" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Forcefully failing the test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Forcefully failing the test
+at org.testng.Assert.fail(Assert.java:111)
+at pages.LoginPage.login(LoginPage.java:50)
+at tests.LoginToApplication.login(LoginToApplication.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginToApplication@5bf0d49]" started-at="2026-03-13T13:37:09 IST" name="tearDown" finished-at="2026-03-13T13:37:15 IST" duration-ms="5471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginToApplication -->
+      <class name="tests.LoginWithAnotherDetails">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginWithAnotherDetails@74e52ef6]" started-at="2026-03-13T13:36:43 IST" name="setUp" finished-at="2026-03-13T13:36:54 IST" duration-ms="10528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:tests.LoginWithAnotherDetails@74e52ef6]" started-at="2026-03-13T13:36:54 IST" name="login" finished-at="2026-03-13T13:37:09 IST" duration-ms="15609" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Forcefully failing the test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Forcefully failing the test
+at org.testng.Assert.fail(Assert.java:111)
+at pages.LoginPage.login(LoginPage.java:50)
+at tests.LoginWithAnotherDetails.login(LoginWithAnotherDetails.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginWithAnotherDetails@74e52ef6]" started-at="2026-03-13T13:37:09 IST" name="tearDown" finished-at="2026-03-13T13:37:15 IST" duration-ms="5495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginWithAnotherDetails -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-03-13T13:37:15 IST" name="Test2" finished-at="2026-03-13T13:37:44 IST" duration-ms="29562">
+      <class name="tests.LoginToApplication">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginToApplication@63475ace]" started-at="2026-03-13T13:37:15 IST" name="setUp" finished-at="2026-03-13T13:37:24 IST" duration-ms="8775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:tests.LoginToApplication@63475ace]" started-at="2026-03-13T13:37:24 IST" name="login" finished-at="2026-03-13T13:37:39 IST" duration-ms="15423" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Forcefully failing the test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Forcefully failing the test
+at org.testng.Assert.fail(Assert.java:111)
+at pages.LoginPage.login(LoginPage.java:50)
+at tests.LoginToApplication.login(LoginToApplication.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginToApplication@63475ace]" started-at="2026-03-13T13:37:39 IST" name="tearDown" finished-at="2026-03-13T13:37:44 IST" duration-ms="5220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginToApplication -->
+      <class name="tests.LoginWithAnotherDetails">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginWithAnotherDetails@4988d8b8]" started-at="2026-03-13T13:37:15 IST" name="setUp" finished-at="2026-03-13T13:37:24 IST" duration-ms="8885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:tests.LoginWithAnotherDetails@4988d8b8]" started-at="2026-03-13T13:37:24 IST" name="login" finished-at="2026-03-13T13:37:39 IST" duration-ms="15427" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Forcefully failing the test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Forcefully failing the test
+at org.testng.Assert.fail(Assert.java:111)
+at pages.LoginPage.login(LoginPage.java:50)
+at tests.LoginWithAnotherDetails.login(LoginWithAnotherDetails.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginWithAnotherDetails@4988d8b8]" started-at="2026-03-13T13:37:39 IST" name="tearDown" finished-at="2026-03-13T13:37:44 IST" duration-ms="5246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginWithAnotherDetails -->
+    </test> <!-- Test2 -->
+  </suite> <!-- crossSuite -->
+</testng-results>
